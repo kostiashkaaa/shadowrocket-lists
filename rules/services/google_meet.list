@@ -1,0 +1,13 @@
+# Source: https://github.com/itdoginfo/allow-domains
+# Rules: 11
+DOMAIN-SUFFIX,meetings.clients6.google.com
+DOMAIN-SUFFIX,meetings.googleapis.com
+DOMAIN-SUFFIX,hangouts.googleapis.com
+DOMAIN-SUFFIX,meet.google.com
+DOMAIN-SUFFIX,stream.meet.google.com
+IP-CIDR,74.125.247.128/32,no-resolve
+IP-CIDR,74.125.250.0/24,no-resolve
+IP-CIDR,142.250.82.0/24,no-resolve
+IP-CIDR6,2001:4860:4864:4:8000::/128,no-resolve
+IP-CIDR6,2001:4860:4864:5::/64,no-resolve
+IP-CIDR6,2001:4860:4864:6::/64,no-resolve

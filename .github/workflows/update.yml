@@ -1,0 +1,40 @@
+name: Update Shadowrocket lists
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+  push:
+    branches: [ "main" ]
+    paths:
+      - convert_shadowrocket.py
+      - .github/workflows/update.yml
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-24.04
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Checkout itdoginfo/allow-domains
+      uses: actions/checkout@v4
+      with:
+        repository: itdoginfo/allow-domains
+        path: upstream
+
+    - name: Convert
+      run: |
+        rm -rf rules
+        python3 convert_shadowrocket.py upstream rules \
+          "https://raw.githubusercontent.com/${{ github.repository }}/main/rules"
+
+    - name: Commit changes
+      run: |
+        git config user.name "github-actions[bot]"
+        git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git add rules
+        git diff --cached --quiet || git commit -m "Update lists from itdoginfo/allow-domains $(date -u +%F)"
+        git push

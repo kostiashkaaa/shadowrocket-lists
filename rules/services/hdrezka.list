@@ -1,0 +1,19 @@
+# Source: https://github.com/itdoginfo/allow-domains
+# Rules: 17
+DOMAIN-SUFFIX,hdrezka.ag
+DOMAIN-SUFFIX,hdrezka.ac
+DOMAIN-SUFFIX,hdrezka.me
+DOMAIN-SUFFIX,hd-rezka.tv
+DOMAIN-SUFFIX,voidboost.cc
+DOMAIN-SUFFIX,rezka.ag
+DOMAIN-SUFFIX,rezka.my
+DOMAIN-SUFFIX,rezkify.com
+DOMAIN-SUFFIX,rezka-ua.in
+DOMAIN-SUFFIX,hdrezka.tv
+DOMAIN-SUFFIX,hdrezka.tech
+DOMAIN-SUFFIX,rezka.tv
+DOMAIN-SUFFIX,rezka.fi
+DOMAIN-SUFFIX,rezka.land
+DOMAIN-SUFFIX,rezka.cc
+DOMAIN-SUFFIX,hdrzk.org
+DOMAIN-SUFFIX,hdrezka.app

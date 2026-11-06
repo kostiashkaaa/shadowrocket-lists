@@ -1,0 +1,8 @@
+# Source: https://github.com/itdoginfo/allow-domains
+# Rules: 6
+DOMAIN-SUFFIX,roblox.com
+DOMAIN-SUFFIX,rbxcdn.com
+DOMAIN-SUFFIX,robloxdev.com
+DOMAIN-SUFFIX,rbxinfra.net
+IP-CIDR,128.116.0.0/17,no-resolve
+IP-CIDR,209.206.40.0/21,no-resolve

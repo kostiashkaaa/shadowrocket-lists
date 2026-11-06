@@ -1,0 +1,33 @@
+# Source: https://github.com/itdoginfo/allow-domains
+# Rules: 31
+DOMAIN-SUFFIX,dis.gd
+DOMAIN-SUFFIX,discord.co
+DOMAIN-SUFFIX,discord.com
+DOMAIN-SUFFIX,discord.design
+DOMAIN-SUFFIX,discord.dev
+DOMAIN-SUFFIX,discord.gg
+DOMAIN-SUFFIX,discord.gift
+DOMAIN-SUFFIX,discord.gifts
+DOMAIN-SUFFIX,discord.media
+DOMAIN-SUFFIX,discord.new
+DOMAIN-SUFFIX,discord.store
+DOMAIN-SUFFIX,discord.tools
+DOMAIN-SUFFIX,discordapp.com
+DOMAIN-SUFFIX,discordapp.net
+DOMAIN-SUFFIX,discordmerch.com
+DOMAIN-SUFFIX,discordpartygames.com
+DOMAIN-SUFFIX,discord-activities.com
+DOMAIN-SUFFIX,discordactivities.com
+DOMAIN-SUFFIX,discordsays.com
+DOMAIN-SUFFIX,discord-attachments-uploads-prd.storage.googleapis.com
+IP-CIDR,138.128.136.0/21,no-resolve
+IP-CIDR,162.158.0.0/15,no-resolve
+IP-CIDR,172.64.0.0/13,no-resolve
+IP-CIDR,34.0.0.0/15,no-resolve
+IP-CIDR,34.2.0.0/15,no-resolve
+IP-CIDR,35.192.0.0/12,no-resolve
+IP-CIDR,35.208.0.0/12,no-resolve
+IP-CIDR,5.200.14.128/25,no-resolve
+IP-CIDR,66.22.192.0/18,no-resolve
+IP-CIDR,104.16.0.0/12,no-resolve
+IP-CIDR6,2606:4700::/32,no-resolve
